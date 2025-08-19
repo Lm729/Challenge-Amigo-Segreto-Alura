@@ -19,13 +19,24 @@ La aplicación permite agregar nombres de participantes mediante un campo de ent
 El sistema incluye múltiples validaciones para asegurar la calidad de los datos:
 - **Campos vacíos**: No permite agregar nombres en blanco.
 - **Números y caracteres especiales**: Rechaza entradas que contengan números o símbolos especiales.
+> [!TIP] 
+> En los parametros **()** de **IF** se aplica: lista === "" || /\d/.test(lista) || /[^a-zA-ZáéíóúÁÉÍÓÚñÑ\s]/.test(lista) para las 3 validaciones anteriores.  
 - **Nombres duplicados**: Evita agregar el mismo nombre dos veces.
+> [!TIP] 
+> En los parametros **()** de otro **IF** utiliza el metodo:
+> **.includes ()**
 
 ### 3. Visualización de Lista
 Los nombres agregados se muestran dinámicamente en una lista visible al usuario.
+> [!TIP]
+> Utiliza el metodo:
+> **.push ()** y luego se llama a una Función que crea la lista mediante el bucle/loop **FOR**.
 
 ### 4. Sorteo Aleatorio
 El programa genera un sorteo aleatorio entre todos los participantes agregados.
+> [!TIP]
+> Utiliza el objeto:
+> **Math** con sus metodos **.floor ()** y **.random** combinados.
 
 ## Puntos Claves
 
@@ -41,6 +52,9 @@ El programa genera un sorteo aleatorio entre todos los participantes agregados.
 
 ### Seguridad y Validación
 - **Limpieza de datos**: Elimina espacios y convierte a minúsculas para consistencia.
+> [!TIP] 
+> Utiliza los metodos:
+> .trim () y .toLowerCase () 
 - **Prevención de sorteos vacíos**: No permite sortear sin participantes.
 
 ## Flujo de Uso
@@ -52,4 +66,5 @@ El programa genera un sorteo aleatorio entre todos los participantes agregados.
 ## Resumen
 
 Esta aplicación es un proyecto educativo que demuestra conceptos fundamentales de desarrollo web frontend. La implementación incluye buenas prácticas de validación de datos y accesibilidad web, haciendo que sea un ejemplo sólido para aprender desarrollo web básico.
+
 
