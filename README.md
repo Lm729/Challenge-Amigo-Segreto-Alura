@@ -2,7 +2,7 @@
 
 ## Descripción del Programa
 
-**Amigo Secreto** es una aplicación web interactiva que permite organizar sorteos entre amigos.
+El Challenge **Amigo Secreto** es una aplicación web interactiva que permite organizar sorteos entre amigos.
 
 ## Funcionamiento
 
@@ -43,8 +43,8 @@ El programa genera un sorteo aleatorio entre todos los participantes agregados.
 - Una vez completada la lista, se presiona el botón "Sortear amigo".
 - El sistema selecciona aleatoriamente un participante y muestra el resultado.
 
-## Notes
+## Resumen
+> [!IMPORTANT]   
+> Alura proporciono los archivos HTML y CSS terminados para enfocarse en la lógica con Java Script.
 
-Esta aplicación es un proyecto educativo que demuestra conceptos fundamentales de desarrollo web frontend. El código está bien estructurado con separación clara de responsabilidades entre HTML, CSS y JavaScript. La implementación incluye buenas prácticas de validación de datos y accesibilidad web, haciendo que sea un ejemplo sólido para aprender desarrollo web básico.
-
-
+Esta aplicación es un proyecto educativo que demuestra conceptos fundamentales de desarrollo web frontend. La implementación incluye buenas prácticas de validación de datos y accesibilidad web, haciendo que sea un ejemplo sólido para aprender desarrollo web básico.
