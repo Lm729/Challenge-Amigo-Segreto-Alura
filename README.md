@@ -1,6 +1,12 @@
 <h1 align="center"> Amigo Secreto </h1>
 
+> [!NOTE]   
+> Es el primer desafio del programa 9 de Oracle One y Alura Latam.
+
 ## Descripción del Programa
+
+> [!IMPORTANT]   
+> Alura Latam y Oracle One proporcionaron los archivos HTML y CSS terminados para enfocarse al 100% en la lógica con Java Script.
 
 El Challenge **Amigo Secreto** es una aplicación web interactiva que permite organizar sorteos entre amigos.
 
@@ -44,7 +50,6 @@ El programa genera un sorteo aleatorio entre todos los participantes agregados.
 - El sistema selecciona aleatoriamente un participante y muestra el resultado.
 
 ## Resumen
-> [!IMPORTANT]   
-> Alura proporciono los archivos HTML y CSS terminados para enfocarse en la lógica con Java Script.
 
 Esta aplicación es un proyecto educativo que demuestra conceptos fundamentales de desarrollo web frontend. La implementación incluye buenas prácticas de validación de datos y accesibilidad web, haciendo que sea un ejemplo sólido para aprender desarrollo web básico.
+
