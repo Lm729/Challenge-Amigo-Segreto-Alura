@@ -36,7 +36,7 @@ El sistema incluye múltiples validaciones para asegurar la calidad de los datos
 ![gif que muestra la validación](https://github.com/Lm729/Challenge-Amigo-Segreto-Alura/blob/ca6226e8226608e0b4f9ba3c11562ea267da3ddb/Explicaci%C3%B3n/Validar%20nombre.gif)
 > [!TIP] 
 >- En los parámetros **()** de **IF** utiliza el método:
->- **.includes ()**
+>- **.includes ()**.
 
 ![imagen que muestra parde del Código](https://github.com/Lm729/Challenge-Amigo-Segreto-Alura/blob/157ff9e9330d8c6806fd3a298f3bdbeb256153ca/Explicaci%C3%B3n/Validar%20nombre%20repetido.JPG)
 
@@ -49,14 +49,20 @@ El sistema incluye múltiples validaciones para asegurar la calidad de los datos
 ### 3. Visualización de Lista
 Los nombres agregados se muestran dinámicamente en una lista visible al usuario.
 > [!TIP]
-> Utiliza el método:
-> **.push ()** y luego se llama a una Función que crea la lista mediante el bucle/loop **FOR**
+>- Utiliza el método:
+>- **.push ()**.
+
+> [!INPORTANT]
+>- La limpieza del **Input** para que el usuario no tenga que eliminar los datos manualmente.
+>- Llama a una Función que crea la lista mediante el bucle/loop **FOR**.
+
+![imagen que muestra parte del Código](https://github.com/Lm729/Challenge-Amigo-Segreto-Alura/blob/5962909e344889c10a368adc9926c5142b252e77/Explicaci%C3%B3n/Agrega%20a%20la%20lista.JPG)
 
 ### 4. Sorteo Aleatorio
 El programa genera un sorteo aleatorio entre todos los participantes agregados.
 > [!TIP]
-> Utiliza el objeto:
-> **Math** con sus métodos **.floor ()** y **.random** combinados.
+>- Utiliza el objeto:
+>- **Math** con sus métodos **.floor ()** y **.random** combinados.
 
 ### 5. Reinicio del Sistema
 El programa permite al usuario **reiniciar el sorteo**.
@@ -91,3 +97,4 @@ El programa permite al usuario **reiniciar el sorteo**.
 ## Resumen
 
 Esta aplicación es un proyecto educativo que demuestra conceptos fundamentales de desarrollo web frontend. La implementación incluye buenas prácticas de validación de datos y accesibilidad web, haciendo que sea un ejemplo sólido para aprender desarrollo web básico.
+
