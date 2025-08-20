@@ -21,9 +21,10 @@ La aplicación permite agregar nombres de participantes mediante un campo de ent
 El sistema incluye múltiples validaciones para asegurar la calidad de los datos:
 - **Campos vacíos**: No permite agregar nombres en blanco.
 - **Números y caracteres especiales**: Rechaza entradas que contengan números o símbolos especiales.
-![gif que muestra como se agregan los datos](https://github.com/Lm729/Challenge-Amigo-Segreto-Alura/blob/a7bbe2876bebe8fdb2b5d3440dc87b17e7892e53/Explicaci%C3%B3n/Validar.mp4.gif)
+![gif que muestra como se validan los datos](https://github.com/Lm729/Challenge-Amigo-Segreto-Alura/blob/a7bbe2876bebe8fdb2b5d3440dc87b17e7892e53/Explicaci%C3%B3n/Validar.mp4.gif)
 > [!TIP] 
-> En los parametros **()** de **IF** se aplica: lista === "" || /\d/.test(lista) || /[^a-zA-ZáéíóúÁÉÍÓÚñÑ\s]/.test(lista) para las 3 validaciones anteriores.  
+> En los parametros **()** de **IF** se aplica: lista === "" || /\d/.test(lista) || /[^a-zA-ZáéíóúÁÉÍÓÚñÑ\s]/.test(lista) para las 3 validaciones anteriores.
+![imagen que muestra parte del código]()
 - **Nombres duplicados**: Evita agregar el mismo nombre dos veces.
 > [!TIP] 
 > En los parametros **()** de otro **IF** utiliza el metodo:
@@ -73,6 +74,7 @@ El programa permite al usuario **reiniciar el sorteo**.
 ## Resumen
 
 Esta aplicación es un proyecto educativo que demuestra conceptos fundamentales de desarrollo web frontend. La implementación incluye buenas prácticas de validación de datos y accesibilidad web, haciendo que sea un ejemplo sólido para aprender desarrollo web básico.
+
 
 
 
