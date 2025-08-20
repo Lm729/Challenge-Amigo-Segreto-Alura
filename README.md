@@ -27,8 +27,8 @@ El sistema incluye múltiples validaciones para asegurar la calidad de los datos
 ![imagen que muestra parte del código](https://github.com/Lm729/Challenge-Amigo-Segreto-Alura/blob/5ea817f334c692fb0763df03d2f30507dae153e2/Explicaci%C3%B3n/C%C3%B3digo%20validar.JPG)
 
 > [!IMPORTANT]
->- En el bloque de código **IF** podemos ver un aviso mediante **Alert**.
->- La limpieza del **Input** para que el usuario no tenga que borrar manualmente.
+>- En el bloque de código **{}** de **IF** podemos ver un aviso mediante **Alert**.
+>- La limpieza del **Input** para que el usuario no tenga que eliminar los datos manualmente.
 >- Se utiliza el **Return** para salir de la **función** al terminar el **IF**.
 
 - **Nombres duplicados**: Evita agregar el mismo nombre dos veces.
@@ -91,6 +91,7 @@ El programa permite al usuario **reiniciar el sorteo**.
 ## Resumen
 
 Esta aplicación es un proyecto educativo que demuestra conceptos fundamentales de desarrollo web frontend. La implementación incluye buenas prácticas de validación de datos y accesibilidad web, haciendo que sea un ejemplo sólido para aprender desarrollo web básico.
+
 
 
 
