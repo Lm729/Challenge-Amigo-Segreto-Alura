@@ -32,6 +32,8 @@ El sistema incluye múltiples validaciones para asegurar la calidad de los datos
 >- Se utiliza el **Return** para salir de **función** al terminar el **IF**. .
 
 - **Nombres duplicados**: Evita agregar el mismo nombre dos veces.
+
+![gif que muestra la validación](https://github.com/Lm729/Challenge-Amigo-Segreto-Alura/blob/ca6226e8226608e0b4f9ba3c11562ea267da3ddb/Explicaci%C3%B3n/Validar%20nombre.gif)
 > [!TIP] 
 > En los parametros **()** de otro **IF** utiliza el metodo:
 > **.includes ()**
@@ -81,6 +83,7 @@ El programa permite al usuario **reiniciar el sorteo**.
 ## Resumen
 
 Esta aplicación es un proyecto educativo que demuestra conceptos fundamentales de desarrollo web frontend. La implementación incluye buenas prácticas de validación de datos y accesibilidad web, haciendo que sea un ejemplo sólido para aprender desarrollo web básico.
+
 
 
 
