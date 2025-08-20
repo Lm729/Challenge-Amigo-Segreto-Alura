@@ -49,19 +49,20 @@ El sistema incluye múltiples validaciones para asegurar la calidad de los datos
 ### 3. Visualización de Lista
 Los nombres agregados se muestran dinámicamente en una lista visible al usuario.
 > [!TIP]
->- Utiliza el método:
+> Utiliza el método:
 >- **.push ()**.
 
-> [!INPORTANT]
+![imagen que muestra parte del Código](https://github.com/Lm729/Challenge-Amigo-Segreto-Alura/blob/5962909e344889c10a368adc9926c5142b252e77/Explicaci%C3%B3n/Agrega%20a%20la%20lista.JPG)
+
+> [!IMPORTANT]
+> En el código vemos:
 >- La limpieza del **Input** para que el usuario no tenga que eliminar los datos manualmente.
 >- Llama a una Función que crea la lista mediante el bucle/loop **FOR**.
-
-![imagen que muestra parte del Código](https://github.com/Lm729/Challenge-Amigo-Segreto-Alura/blob/5962909e344889c10a368adc9926c5142b252e77/Explicaci%C3%B3n/Agrega%20a%20la%20lista.JPG)
 
 ### 4. Sorteo Aleatorio
 El programa genera un sorteo aleatorio entre todos los participantes agregados.
 > [!TIP]
->- Utiliza el objeto:
+> Utiliza el objeto:
 >- **Math** con sus métodos **.floor ()** y **.random** combinados.
 
 ### 5. Reinicio del Sistema
@@ -82,7 +83,7 @@ El programa permite al usuario **reiniciar el sorteo**.
 ### Seguridad y Validación
 - **Limpieza de datos**: Elimina espacios, convierte a minúsculas para consistencia y futuras comparaciones.
 > [!TIP] 
->- Utiliza los métodos:
+> Utiliza los métodos:
 >- .trim () y .toLowerCase () combinados.
 > ![imagen que muestra parte del código](https://github.com/Lm729/Challenge-Amigo-Segreto-Alura/blob/e410bdd4c8bbe909d32f564094e701e2543a6827/Explicaci%C3%B3n/Valida%20y%20convierte%20a%20minuscula.JPG)
 - **Prevención de sorteos vacíos**: No permite sortear sin participantes.
@@ -97,4 +98,5 @@ El programa permite al usuario **reiniciar el sorteo**.
 ## Resumen
 
 Esta aplicación es un proyecto educativo que demuestra conceptos fundamentales de desarrollo web frontend. La implementación incluye buenas prácticas de validación de datos y accesibilidad web, haciendo que sea un ejemplo sólido para aprender desarrollo web básico.
+
 
