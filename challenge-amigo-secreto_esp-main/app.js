@@ -16,9 +16,9 @@ function agregarAmigo () {
         document.getElementById ('amigo').value = "";
         return;
     }
+
     amigos.push (lista);
     document.getElementById ('amigo').value = "";
-    console.log (amigos);
     actualizaLista ();
 }
 
