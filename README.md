@@ -15,12 +15,13 @@ El Challenge **Amigo Secreto** es una aplicación web interactiva que permite or
 
 ### 1. Agregar Participantes
 La aplicación permite agregar nombres de participantes mediante un campo de entrada de texto.
-![ejemplo](https://github.com/Lm729/Challenge-Amigo-Segreto-Alura/blob/80fa3f8b3a06926a2a4dc1be54db2780e86d6bd3/Explicaci%C3%B3n/Agregar%20Participantes.gif) 
+![gif que muestra como se agregan los datos](https://github.com/Lm729/Challenge-Amigo-Segreto-Alura/blob/80fa3f8b3a06926a2a4dc1be54db2780e86d6bd3/Explicaci%C3%B3n/Agregar%20Participantes.gif) 
 
 ### 2. Validaciones Implementadas
 El sistema incluye múltiples validaciones para asegurar la calidad de los datos:
 - **Campos vacíos**: No permite agregar nombres en blanco.
 - **Números y caracteres especiales**: Rechaza entradas que contengan números o símbolos especiales.
+![gif que muestra como se agregan los datos](https://github.com/Lm729/Challenge-Amigo-Segreto-Alura/blob/a7bbe2876bebe8fdb2b5d3440dc87b17e7892e53/Explicaci%C3%B3n/Validar.mp4.gif)
 > [!TIP] 
 > En los parametros **()** de **IF** se aplica: lista === "" || /\d/.test(lista) || /[^a-zA-ZáéíóúÁÉÍÓÚñÑ\s]/.test(lista) para las 3 validaciones anteriores.  
 - **Nombres duplicados**: Evita agregar el mismo nombre dos veces.
@@ -72,6 +73,7 @@ El programa permite al usuario **reiniciar el sorteo**.
 ## Resumen
 
 Esta aplicación es un proyecto educativo que demuestra conceptos fundamentales de desarrollo web frontend. La implementación incluye buenas prácticas de validación de datos y accesibilidad web, haciendo que sea un ejemplo sólido para aprender desarrollo web básico.
+
 
 
 
