@@ -6,7 +6,8 @@
 ## Descripción del Programa
 
 > [!IMPORTANT]   
-> Oracle One y Alura Latam proporcionaron los archivos HTML y CSS terminados para enfocarse al 100% en la lógica con Java Script.
+> Oracle One y Alura Latam proporcionaron los archivos **HTML** y **CSS** terminados para enfocarse al 100% en la lógica con Java Script.
+> Agregué algunas líneas de código adicionales al **HTML** y **CSS**.
 
 El Challenge **Amigo Secreto** es una aplicación web interactiva que permite organizar sorteos entre amigos.
 
@@ -14,6 +15,7 @@ El Challenge **Amigo Secreto** es una aplicación web interactiva que permite or
 
 ### 1. Agregar Participantes
 La aplicación permite agregar nombres de participantes mediante un campo de entrada de texto.
+![ejemplo]() 
 
 ### 2. Validaciones Implementadas
 El sistema incluye múltiples validaciones para asegurar la calidad de los datos:
@@ -70,6 +72,7 @@ El programa permite al usuario **reiniciar el sorteo**.
 ## Resumen
 
 Esta aplicación es un proyecto educativo que demuestra conceptos fundamentales de desarrollo web frontend. La implementación incluye buenas prácticas de validación de datos y accesibilidad web, haciendo que sea un ejemplo sólido para aprender desarrollo web básico.
+
 
 
 
