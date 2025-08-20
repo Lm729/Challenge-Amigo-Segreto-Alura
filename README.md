@@ -23,20 +23,28 @@ El sistema incluye múltiples validaciones para asegurar la calidad de los datos
 - **Números y caracteres especiales**: Rechaza entradas que contengan números o símbolos especiales.
 ![gif que muestra como se validan los datos](https://github.com/Lm729/Challenge-Amigo-Segreto-Alura/blob/a7bbe2876bebe8fdb2b5d3440dc87b17e7892e53/Explicaci%C3%B3n/Validar.mp4.gif)
 > [!TIP] 
-> En los parametros **()** de **IF** se aplica el siguiente código para las 3 validaciones anteriores.
+> En los parámetros **()** de **IF** se aplica el siguiente código para las 3 validaciones anteriores.
 ![imagen que muestra parte del código](https://github.com/Lm729/Challenge-Amigo-Segreto-Alura/blob/5ea817f334c692fb0763df03d2f30507dae153e2/Explicaci%C3%B3n/C%C3%B3digo%20validar.JPG)
 
 > [!IMPORTANT]
->- En el bloque de código **IF** podemos ver el aviso en forma de **Alert**.
+>- En el bloque de código **IF** podemos ver un aviso mediante **Alert**.
 >- La limpieza del **Input** para que el usuario no tenga que borrar manualmente.
->- Se utiliza el **Return** para salir de **función** al terminar el **IF**. .
+>- Se utiliza el **Return** para salir de la **función** al terminar el **IF**.
 
 - **Nombres duplicados**: Evita agregar el mismo nombre dos veces.
 
 ![gif que muestra la validación](https://github.com/Lm729/Challenge-Amigo-Segreto-Alura/blob/ca6226e8226608e0b4f9ba3c11562ea267da3ddb/Explicaci%C3%B3n/Validar%20nombre.gif)
 > [!TIP] 
-> En los parametros **()** de otro **IF** utiliza el metodo:
-> **.includes ()**
+>- En los parámetros **()** de **IF** utiliza el metodo:
+>- **.includes ()**
+
+![imagen que muestra parde del Código](https://github.com/Lm729/Challenge-Amigo-Segreto-Alura/blob/157ff9e9330d8c6806fd3a298f3bdbeb256153ca/Explicaci%C3%B3n/Validar%20nombre%20repetido.JPG)
+
+> [!IMPORTANT]
+>- En el bloque de código **IF** podemos ver que el metodo **.includes ()** lleva parámetros.
+>- Utiliza un aviso mediante **Alert**, recordando al usuario que ya existe el nombre.
+>- La limpieza del **Input** para que el usuario no tenga que borrar manualmente.
+>- Se utiliza el **Return** para salir de la **función** al terminar el **IF**.
 
 ### 3. Visualización de Lista
 Los nombres agregados se muestran dinámicamente en una lista visible al usuario.
@@ -83,6 +91,7 @@ El programa permite al usuario **reiniciar el sorteo**.
 ## Resumen
 
 Esta aplicación es un proyecto educativo que demuestra conceptos fundamentales de desarrollo web frontend. La implementación incluye buenas prácticas de validación de datos y accesibilidad web, haciendo que sea un ejemplo sólido para aprender desarrollo web básico.
+
 
 
 
