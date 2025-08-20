@@ -64,10 +64,11 @@ El programa permite al usuario **reiniciar el sorteo**.
 - **Retroalimentación visual**: Resultado del sorteo destacado en color verde. 
 
 ### Seguridad y Validación
-- **Limpieza de datos**: Elimina espacios y convierte a minúsculas para consistencia.
+- **Limpieza de datos**: Elimina espacios, convierte a minúsculas para consistencia y futuras comparaciones.
 > [!TIP] 
-> Utiliza los metodos:
-> .trim () y .toLowerCase () 
+>- Utiliza los metodos:
+>- .trim () y .toLowerCase ()
+> ![imagen que muestra parte del código](https://github.com/Lm729/Challenge-Amigo-Segreto-Alura/blob/e410bdd4c8bbe909d32f564094e701e2543a6827/Explicaci%C3%B3n/Valida%20y%20convierte%20a%20minuscula.JPG)
 - **Prevención de sorteos vacíos**: No permite sortear sin participantes.
 
 ## Flujo de Uso
@@ -80,6 +81,7 @@ El programa permite al usuario **reiniciar el sorteo**.
 ## Resumen
 
 Esta aplicación es un proyecto educativo que demuestra conceptos fundamentales de desarrollo web frontend. La implementación incluye buenas prácticas de validación de datos y accesibilidad web, haciendo que sea un ejemplo sólido para aprender desarrollo web básico.
+
 
 
 
