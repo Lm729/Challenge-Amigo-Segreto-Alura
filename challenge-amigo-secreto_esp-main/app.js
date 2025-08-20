@@ -45,3 +45,7 @@ function sortearAmigo () {
     nombres.innerHTML = "";
     return;
 }
+
+function reiniciarSorteo () {
+    location.reload ();
+}

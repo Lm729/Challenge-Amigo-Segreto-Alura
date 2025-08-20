@@ -92,6 +92,11 @@ body {
     justify-content: center;
 }
 
+.icono {
+    width: 35px;
+    height: 35px;
+}
+
 /* Estilos de entrada de texto */
 .input-title {
     flex: 1;
