@@ -137,12 +137,5 @@ El programa permite al usuario **reiniciar el sorteo**.
 - El sistema selecciona aleatoriamente un participante y muestra el resultado.
 - El sistema cuenta con un reinicio, preiona el botón "Reiniciar Sorteo".
 
-## Resumen
-
-Esta aplicación es un proyecto educativo que demuestra conceptos fundamentales de desarrollo web frontend. La implementación incluye buenas prácticas de validación de datos y accesibilidad web, haciendo que sea un ejemplo sólido para aprender desarrollo web básico.
-
-
-
-
-
-
+## Autor
+- Leandro Moreno
