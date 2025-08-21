@@ -36,7 +36,7 @@ El sistema incluye múltiples validaciones para asegurar la calidad de los datos
 ![gif que muestra la validación](https://github.com/Lm729/Challenge-Amigo-Segreto-Alura/blob/ca6226e8226608e0b4f9ba3c11562ea267da3ddb/Explicaci%C3%B3n/Validar%20nombre.gif)
 > [!TIP] 
 >- En los parámetros **()** de **IF** utiliza el método:
->- **.includes ()**
+>- **.includes ()**.
 
 ![imagen que muestra parde del Código](https://github.com/Lm729/Challenge-Amigo-Segreto-Alura/blob/157ff9e9330d8c6806fd3a298f3bdbeb256153ca/Explicaci%C3%B3n/Validar%20nombre%20repetido.JPG)
 
@@ -50,16 +50,39 @@ El sistema incluye múltiples validaciones para asegurar la calidad de los datos
 Los nombres agregados se muestran dinámicamente en una lista visible al usuario.
 > [!TIP]
 > Utiliza el método:
-> **.push ()** y luego se llama a una Función que crea la lista mediante el bucle/loop **FOR**
+>- **.push ()**.
+
+![imagen que muestra parte del Código](https://github.com/Lm729/Challenge-Amigo-Segreto-Alura/blob/5962909e344889c10a368adc9926c5142b252e77/Explicaci%C3%B3n/Agrega%20a%20la%20lista.JPG)
+
+> [!IMPORTANT]
+> En el código vemos:
+>- La limpieza del **Input** para que el usuario no tenga que eliminar los datos manualmente.
+>- Llama a una Función que crea la lista mediante el bucle/loop **FOR**.
+
+![imagen que muestra parte del Código](https://github.com/Lm729/Challenge-Amigo-Segreto-Alura/blob/7eeb4b1bff941ef1aa51519fba713c5cbc358c13/Explicaci%C3%B3n/Crea%20la%20lista.JPG)
+
+> [!IMPORTANT]
+> En el código podemos ver:
+>- La condición de **IF** entre **()**.
+>- La propiedad **.innerHTML** con el operador **+=** de asignación compuesto y la creación de la lista en el **DOM** mediante comillas invertidas o **backticks** **``**.
+>- En el interior de las **``** encontramos un **Template** que es un **String** con **${}**.
 
 ### 4. Sorteo Aleatorio
 El programa genera un sorteo aleatorio entre todos los participantes agregados.
 > [!TIP]
 > Utiliza el objeto:
-> **Math** con sus métodos **.floor ()** y **.random** combinados.
+>- **Math** con sus métodos **.floor ()** y **.random** combinados.
+
+![imagen que muestra parte del Código](https://github.com/Lm729/Challenge-Amigo-Segreto-Alura/blob/7eeb4b1bff941ef1aa51519fba713c5cbc358c13/Explicaci%C3%B3n/M%C3%A9todo%20Math.JPG)
 
 ### 5. Reinicio del Sistema
 El programa permite al usuario **reiniciar el sorteo**.
+
+> [!TIP]
+> Utiliza el manejador **handler** de evento **onclick**:
+>- Al hacer **Click** sobre el botón, llama a una función.
+
+![imagen que muestra parte del Código](https://github.com/Lm729/Challenge-Amigo-Segreto-Alura/blob/7eeb4b1bff941ef1aa51519fba713c5cbc358c13/Explicaci%C3%B3n/Reinicio.JPG)
 
 ## Puntos Claves
 
@@ -76,7 +99,7 @@ El programa permite al usuario **reiniciar el sorteo**.
 ### Seguridad y Validación
 - **Limpieza de datos**: Elimina espacios, convierte a minúsculas para consistencia y futuras comparaciones.
 > [!TIP] 
->- Utiliza los métodos:
+> Utiliza los métodos:
 >- .trim () y .toLowerCase () combinados.
 > ![imagen que muestra parte del código](https://github.com/Lm729/Challenge-Amigo-Segreto-Alura/blob/e410bdd4c8bbe909d32f564094e701e2543a6827/Explicaci%C3%B3n/Valida%20y%20convierte%20a%20minuscula.JPG)
 - **Prevención de sorteos vacíos**: No permite sortear sin participantes.
@@ -91,3 +114,6 @@ El programa permite al usuario **reiniciar el sorteo**.
 ## Resumen
 
 Esta aplicación es un proyecto educativo que demuestra conceptos fundamentales de desarrollo web frontend. La implementación incluye buenas prácticas de validación de datos y accesibilidad web, haciendo que sea un ejemplo sólido para aprender desarrollo web básico.
+
+
+
