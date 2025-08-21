@@ -59,14 +59,30 @@ Los nombres agregados se muestran dinámicamente en una lista visible al usuario
 >- La limpieza del **Input** para que el usuario no tenga que eliminar los datos manualmente.
 >- Llama a una Función que crea la lista mediante el bucle/loop **FOR**.
 
+![imagen que muestra parte del Código](https://github.com/Lm729/Challenge-Amigo-Segreto-Alura/blob/7eeb4b1bff941ef1aa51519fba713c5cbc358c13/Explicaci%C3%B3n/Crea%20la%20lista.JPG)
+
+> [!IMPORTANT]
+> En el código podemos ver:
+>- La condición de **IF** entre **()**.
+>- La propiedad **.innerHTML** con el operador **+=** de asignación compuesto y la creación de la lista en el **DOM** mediante comillas invertidas o **backticks** **``**.
+>- En el interior de las **``** encontramos un **Template** que es un **String** con **${}**.
+
 ### 4. Sorteo Aleatorio
 El programa genera un sorteo aleatorio entre todos los participantes agregados.
 > [!TIP]
 > Utiliza el objeto:
 >- **Math** con sus métodos **.floor ()** y **.random** combinados.
 
+![imagen que muestra parte del Código](https://github.com/Lm729/Challenge-Amigo-Segreto-Alura/blob/7eeb4b1bff941ef1aa51519fba713c5cbc358c13/Explicaci%C3%B3n/M%C3%A9todo%20Math.JPG)
+
 ### 5. Reinicio del Sistema
 El programa permite al usuario **reiniciar el sorteo**.
+
+> [!TIP]
+> Utiliza el manejador **handler** de evento **onclick**:
+>- Al hacer **Click** sobre el botón, llama a una función.
+
+![imagen que muestra parte del Código](https://github.com/Lm729/Challenge-Amigo-Segreto-Alura/blob/7eeb4b1bff941ef1aa51519fba713c5cbc358c13/Explicaci%C3%B3n/Reinicio.JPG)
 
 ## Puntos Claves
 
@@ -98,5 +114,6 @@ El programa permite al usuario **reiniciar el sorteo**.
 ## Resumen
 
 Esta aplicación es un proyecto educativo que demuestra conceptos fundamentales de desarrollo web frontend. La implementación incluye buenas prácticas de validación de datos y accesibilidad web, haciendo que sea un ejemplo sólido para aprender desarrollo web básico.
+
 
 
