@@ -88,7 +88,7 @@ El programa permite al usuario **reiniciar el sorteo**.
 
 ![imagen que muestra parte del Código](https://github.com/Lm729/Challenge-Amigo-Segreto-Alura/blob/8b0088b218852124d1c69a14d81c5d4bf61a1b2c/Explicaci%C3%B3n/Reinicio.JPG)
 
-> [!INPORTANT]
+> [!IMPORTANT] 
 > Dentro de la función vemos la linea:
 >- **location.reload ();** que nos permite cargar el sorteo nuevamente.
 
@@ -119,7 +119,7 @@ El programa permite al usuario **reiniciar el sorteo**.
 
 ![imagen que muestra parte del Código](https://github.com/Lm729/Challenge-Amigo-Segreto-Alura/blob/7eeb4b1bff941ef1aa51519fba713c5cbc358c13/Explicaci%C3%B3n/Sorteo.JPG)
 
-> [!INPORTANT]
+> [!IMPORTANT] 
 > En el código podemos ver:
 >- Un aviso mediante **Alert**, recordando al usuario que no puede sortear sin tener nombres.
 >- Se utiliza el **Return** para salir de la **función**.
@@ -135,6 +135,7 @@ El programa permite al usuario **reiniciar el sorteo**.
 ## Resumen
 
 Esta aplicación es un proyecto educativo que demuestra conceptos fundamentales de desarrollo web frontend. La implementación incluye buenas prácticas de validación de datos y accesibilidad web, haciendo que sea un ejemplo sólido para aprender desarrollo web básico.
+
 
 
 
