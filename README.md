@@ -73,6 +73,9 @@ Los nombres agregados se muestran dinámicamente en una lista visible al usuario
 
 ### 4. Sorteo Aleatorio
 El programa genera un sorteo aleatorio entre todos los participantes agregados.
+
+![gif que muestra como se sortea](https://github.com/Lm729/Challenge-Amigo-Segreto-Alura/blob/632d85a5cff0c722ced60f0c929f06be2c6c4a81/Explicaci%C3%B3n/Sorteo%20ejemplo.mp4.gif)
+
 > [!TIP]
 > Utiliza el objeto:
 >- **Math** con sus métodos **.floor ()** y **.random** combinados.
@@ -81,6 +84,8 @@ El programa genera un sorteo aleatorio entre todos los participantes agregados.
 
 ### 5. Reinicio del Sistema
 El programa permite al usuario **reiniciar el sorteo**.
+
+![gif que muestra como se reinicia el sorteo](https://github.com/Lm729/Challenge-Amigo-Segreto-Alura/blob/632d85a5cff0c722ced60f0c929f06be2c6c4a81/Explicaci%C3%B3n/Reinicio%20Sorteo.mp4.gif)
 
 > [!TIP]
 > Utiliza el manejador **handler** de evento **onclick**:
@@ -132,11 +137,5 @@ El programa permite al usuario **reiniciar el sorteo**.
 - El sistema selecciona aleatoriamente un participante y muestra el resultado.
 - El sistema cuenta con un reinicio, preiona el botón "Reiniciar Sorteo".
 
-## Resumen
-
-Esta aplicación es un proyecto educativo que demuestra conceptos fundamentales de desarrollo web frontend. La implementación incluye buenas prácticas de validación de datos y accesibilidad web, haciendo que sea un ejemplo sólido para aprender desarrollo web básico.
-
-
-
-
-
+## Autor
+- Leandro Moreno
